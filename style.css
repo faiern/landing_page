@@ -1,0 +1,95 @@
+
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.intro, .info, .quote, .action, footer {
+    height: 600px;
+}
+
+.intro{
+    background-color: #1F2637;
+}
+
+.quote{
+    background-color: #E5E7EB;
+}
+
+footer{
+    background-color: #1F2637 ;
+    height: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    padding-right: 300px;
+    display: flex;
+    color: white;
+    margin-right: 100px;
+    margin-left: -120px;
+}
+
+h3{
+    align-self: center;
+    justify-self: left;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    align-self: center;
+}
+
+
+.hero{
+    display: flex;
+    justify-content: center;
+}
+
+.left, .right{
+    color: white;
+    width: 400px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+
+.placeholder{
+    padding-left: 0;
+    
+}
+
+h1 {
+    margin-top: 0px;
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+
+.hero .left p{
+ margin-top: 0px;
+ font-size: 18px;
+}
+
+button{
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-color: #3882F6;
+
+}
+
