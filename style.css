@@ -6,7 +6,7 @@ body{
 }
 
 .intro, .info, .quote, .action, footer {
-    height: 600px;
+    height: 300px;
 }
 
 .intro{
@@ -24,15 +24,13 @@ footer{
 
 header {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .title{
     padding-right: 300px;
     display: flex;
     color: white;
-    margin-right: 100px;
-    margin-left: -120px;
 }
 
 h3{
@@ -44,6 +42,7 @@ a{
     color: white;
     text-decoration: none;
     align-self: center;
+    
 }
 
 
@@ -54,7 +53,7 @@ a{
 
 .left, .right{
     color: white;
-    width: 400px;
+    width: 420px;
 }
 
 .left{
@@ -93,3 +92,28 @@ button{
 
 }
 
+
+h2{
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deck{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 150px;
+    height:150px ;
+    border: 5px solid;
+    border-radius: 15px;
+    border-color: #3882F6;
+    margin: 15px;
+}
